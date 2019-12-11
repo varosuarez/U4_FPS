@@ -19,3 +19,21 @@ Añadido el spawn de enemigos
  
 ### Arreglado
  
+ 
+ ## [1.0.5] - 11/12/2019
+  
+Añadido fade in y fade out del HUD cuando se hace focus con el click izquierdo y los contadores para enemigos y generadores.
+ 
+### Añadido
+ 
+ - Animaciones y eventos entre el **HUD** y **FirstPersonCharacter** para el efecto de focus.
+ - Contador de enemigos y de generadores en el **HUD**.
+ 
+### Modificado
+  
+- Blueprint **FirstPersonCharacter**. Añadidas variables para llevar el conteo de generadores y enemigos.
+- Blueprint **Enemy**. Añadida suma y resta de las variables del nivel (guardadas en el jugador, no hay forma fácil de acceder a las variables si se ponen como variables de nivel) cuando se crea y se destruye.
+- Blueprint **Mob Generator**. Añadida suma y resta de las variables del nivel cuando se crea y se destruye.
+ 
+### Arreglado
+ 
